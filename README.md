@@ -1,12 +1,12 @@
-🚗 Traffic Volume Prediction
+# 🚗 Traffic Volume Prediction
 
 This project leverages machine learning techniques to predict hourly traffic volume based on various temporal and weather-related features. By analyzing historical data, it aims to assist in traffic management and urban planning.
 
-📊 Dataset
+# 📊 Dataset
 
 The model is trained on the Metro Interstate Traffic Volume dataset from the UCI Machine Learning Repository. This dataset contains hourly traffic volume data alongside weather and time information.
 
-🛠️ Features
+# 🛠️ Features
 
 *Temporal Features*: Hour, day of the week, month, holiday indicators.
 
@@ -28,19 +28,23 @@ traffic_volume_prediction/
 ├── traffic_scaler.pkl           # Scaler for feature normalization
 ├── requirements.txt             # Python dependencies
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-Prerequisites
+### Prerequisites
 
 Ensure you have Python 3.x installed. Install the required packages using:
 
+```bash
 pip install -r requirements.txt
+```
 
 Running the Application
 
 Execute the main script to start the prediction application:
 
+```bash
 python run_traffic_app.py
+```
 
 This will launch a Streamlit web application where you can input feature values and obtain traffic volume predictions.
 
