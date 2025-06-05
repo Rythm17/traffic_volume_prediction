@@ -12,7 +12,7 @@ The model is trained on the Metro Interstate Traffic Volume dataset from the UCI
 
 ### *Weather Features*: Temperature, rain, snow, cloud cover, weather description.
 
-# 🧠 Models Used
+## 🧠 Models Used
 
 ### *Linear Regression*: A baseline model to establish initial performance metrics.
 
