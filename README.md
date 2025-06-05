@@ -1,4 +1,5 @@
-#🚗 Traffic Volume Prediction
+🚗 Traffic Volume Prediction
+
 This project leverages machine learning techniques to predict hourly traffic volume based on various temporal and weather-related features. By analyzing historical data, it aims to assist in traffic management and urban planning.
 
 📊 Dataset
