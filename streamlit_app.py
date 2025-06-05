@@ -6,7 +6,6 @@ import joblib
 
 # Load saved models and scaler
 lr_model = joblib.load("traffic_lr_model.pkl")
-
 rf_model = joblib.load("traffic_rf_model.pkl")
 scaler = joblib.load("traffic_scaler.pkl")
 
@@ -47,13 +46,10 @@ is_rush_hour = 1 if hour in [7,8,9,16,17,18] else 0
 
 import pandas as pd
 # --- Define the feature order as in training ---
-feature_names = ['temp', 'rain_1h', 'snow_1h', 'clouds_all',
-                 'is_weekend', 'is_rush_hour', 'hour', 'dayofweek']
+feature_names = ['temp', 'rain_1h', 'snow_1h', 'clouds_all', 'is_weekend', 'is_rush_hour', 'hour', 'dayofweek']
 
 # --- Create DataFrame ---
-features_df = pd.DataFrame([[temp, rain_1h, snow_1h, clouds_all,
-                             is_weekend, is_rush_hour, hour, dayofweek_code]],
-                           columns=feature_names)
+features_df = pd.DataFrame([[temp, rain_1h, snow_1h, clouds_all, is_weekend, is_rush_hour, hour, dayofweek_code]],columns=feature_names)
 
 # --- Scale input ---
 scaled_features = scaler.transform(features_df)
