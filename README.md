@@ -22,7 +22,7 @@ The model is trained on the Metro Interstate Traffic Volume dataset from the UCI
 
 ```bash
 traffic_volume_prediction/
-├── run_traffic_app.py           # Main application script
+├── streamlit_app.py           # Main application script
 ├── traffic_volume_prediction.py # Model training and evaluation
 ├── traffic_lr_model.pkl         # Saved Linear Regression model
 ├── traffic_rf_model.pkl         # Saved Random Forest model
