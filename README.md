@@ -2,23 +2,23 @@
 
 This project leverages machine learning techniques to predict hourly traffic volume based on various temporal and weather-related features. By analyzing historical data, it aims to assist in traffic management and urban planning.
 
-# 📊 Dataset
+## 📊 Dataset
 
 The model is trained on the Metro Interstate Traffic Volume dataset from the UCI Machine Learning Repository. This dataset contains hourly traffic volume data alongside weather and time information.
 
-# 🛠️ Features
+## 🛠️ Features
 
-*Temporal Features*: Hour, day of the week, month, holiday indicators.
+### *Temporal Features*: Hour, day of the week, month, holiday indicators.
 
-*Weather Features*: Temperature, rain, snow, cloud cover, weather description.
+### *Weather Features*: Temperature, rain, snow, cloud cover, weather description.
 
 # 🧠 Models Used
 
-*Linear Regression*: A baseline model to establish initial performance metrics.
+### *Linear Regression*: A baseline model to establish initial performance metrics.
 
-*Random Forest Regressor*: An ensemble model that improves prediction accuracy by averaging multiple decision trees.
+### *Random Forest Regressor*: An ensemble model that improves prediction accuracy by averaging multiple decision trees.
 
-# 🗂️ Project Structure
+## 🗂️ Project Structure
 
 ```bash
 traffic_volume_prediction/
@@ -50,10 +50,10 @@ python run_traffic_app.py
 
 This will launch a Streamlit web application where you can input feature values and obtain traffic volume predictions.
 
-# 📈 Model Performance
+## 📈 Model Performance
 
 The Random Forest model outperforms the Linear Regression model, achieving higher accuracy and better generalization on unseen data. Performance metrics include Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²) score.
 
 
-# 📸 Screenshots
+## 📸 Screenshots
 
