@@ -45,7 +45,7 @@ pip install -r requirements.txt
 Execute the main script to start the prediction application:
 
 ```bash
-python run_traffic_app.py
+python streamlit_app.py
 ```
 
 This will launch a Streamlit web application where you can input feature values and obtain traffic volume predictions.
