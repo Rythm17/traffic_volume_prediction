@@ -8,15 +8,15 @@ The model is trained on the Metro Interstate Traffic Volume dataset from the UCI
 
 ## 🛠️ Features
 
-### *Temporal Features*: Hour, day of the week, month, holiday indicators.
+*Temporal Features*: Hour, day of the week, month, holiday indicators.
 
-### *Weather Features*: Temperature, rain, snow, cloud cover, weather description.
+*Weather Features*: Temperature, rain, snow, cloud cover, weather description.
 
 ## 🧠 Models Used
 
-### *Linear Regression*: A baseline model to establish initial performance metrics.
+*Linear Regression*: A baseline model to establish initial performance metrics.
 
-### *Random Forest Regressor*: An ensemble model that improves prediction accuracy by averaging multiple decision trees.
+*Random Forest Regressor*: An ensemble model that improves prediction accuracy by averaging multiple decision trees.
 
 ## 🗂️ Project Structure
 
@@ -53,7 +53,6 @@ This will launch a Streamlit web application where you can input feature values 
 ## 📈 Model Performance
 
 The Random Forest model outperforms the Linear Regression model, achieving higher accuracy and better generalization on unseen data. Performance metrics include Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²) score.
-
 
 ## 📸 Screenshots
 
