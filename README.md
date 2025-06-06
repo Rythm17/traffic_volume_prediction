@@ -54,5 +54,5 @@ This will launch a Streamlit web application where you can input feature values 
 
 The Random Forest model outperforms the Linear Regression model, achieving higher accuracy and better generalization on unseen data. Performance metrics include Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²) score.
 
-## 📸 Screenshots
+
 
