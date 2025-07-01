@@ -5,9 +5,18 @@ import numpy as np
 import joblib
 
 # Load saved models and scaler
-lr_model = joblib.load("traffic_lr_model.pkl")
-rf_model = joblib.load("traffic_rf_model.pkl")
-scaler = joblib.load("traffic_scaler.pkl")
+@st.cache_resource
+def load_models():
+    try:
+        lr_model = joblib.load("traffic_lr_model.pkl")
+        rf_model = joblib.load("traffic_rf_model.pkl")
+        scaler = joblib.load("traffic_scaler.pkl")
+        return lr_model, rf_model, scaler
+    except Exception as e:
+        st.error(f"❌ Failed to load model files: {e}")
+        st.stop()
+
+lr_model, rf_model, scaler = load_models()
 
 # Streamlit app setup
 st.set_page_config(page_title = "Traffic Volume Predictor", layout = "centered")
